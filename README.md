@@ -14,4 +14,4 @@ missing = [name for name, ok in zip(
     ["12+ characters", "lowercase", "uppercase", "digit", "special character"], checks
 ) if not ok]
 if missing:
-    print("Add: " + ", ".join(missing))# Password-strength-checker
+    print("Add: " + ", ".join(missing))
